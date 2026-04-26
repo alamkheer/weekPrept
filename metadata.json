@@ -1,0 +1,6 @@
+{
+  "name": "LoopMeal",
+  "description": "A closed-loop meal planning system connecting inventory, recipes, and shopping lists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
