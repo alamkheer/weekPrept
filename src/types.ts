@@ -7,6 +7,11 @@ export interface Ingredient {
   unit: Unit;
 }
 
+export interface RecipeProperty {
+  label: string;
+  value: string;
+}
+
 export interface Recipe {
   id: string;
   name: string;
@@ -15,6 +20,7 @@ export interface Recipe {
   prepTime: number; // minutes
   ingredients: Ingredient[];
   instructions: string[];
+  properties?: RecipeProperty[];
 }
 
 export interface InventoryItem {

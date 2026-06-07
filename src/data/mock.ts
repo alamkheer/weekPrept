@@ -16,7 +16,7 @@ export const initialInventory: InventoryItem[] = [
 export const initialRecipes: Recipe[] = [
   {
     id: 'r1',
-    name: 'Simple Chicken Fried Rice',
+    name: 'SAMPLE: Simple Chicken Fried Rice',
     description: 'A quick and easy chicken fried rice using pantry staples.',
     image: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=800',
     prepTime: 20,
@@ -37,9 +37,9 @@ export const initialRecipes: Recipe[] = [
   },
   {
     id: 'r2',
-    name: 'Black Bean Bowl',
+    name: 'SAMPLE: Black Bean Bowl',
     description: 'Healthy and filling vegetarian black bean and rice bowl.',
-    image: 'https://images.unsplash.com/photo-1548943487-a2e4142f36bc?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
     prepTime: 15,
     ingredients: [
       { id: 'i6', name: 'Rice', quantity: 150, unit: 'g' },
@@ -56,7 +56,7 @@ export const initialRecipes: Recipe[] = [
   },
   {
     id: 'r3',
-    name: 'Garlic Butter Chicken',
+    name: 'SAMPLE: Garlic Butter Chicken',
     description: 'Tender chicken breasts cooked in a rich garlic butter sauce.',
     image: 'https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&q=80&w=800',
     prepTime: 25,
