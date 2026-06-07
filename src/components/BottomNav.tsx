@@ -30,7 +30,7 @@ export function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
                 isActive ? "text-sage-600" : "text-gray-400 hover:text-sage-500"
               )}
             >
-              <Icon size={20} weight={isActive ? "fill" : "regular"} className={cn(isActive && "stroke-2")} />
+              <Icon size={20} strokeWidth={isActive ? 2.5 : 2} />
               <span className="text-[10px] font-medium tracking-wide uppercase">{tab.label}</span>
             </button>
           );
